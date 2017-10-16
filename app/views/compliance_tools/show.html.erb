@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Customer name:</strong>
+  <%= @compliance_tool.customer_name %>
+</p>
+
+<p>
+  <strong>Date of flag:</strong>
+  <%= @compliance_tool.date_of_flag %>
+</p>
+
+<p>
+  <strong>Transaction amount if applicable:</strong>
+  <%= @compliance_tool.transaction_amount_if_applicable %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @compliance_tool.notes %>
+</p>
+
+<p>
+  <strong>Customer number:</strong>
+  <%= @compliance_tool.customer_number %>
+</p>
+
+<p>
+  <strong>Open or closed:</strong>
+  <%= @compliance_tool.open_or_closed %>
+</p>
+
+<%= link_to 'Edit', edit_compliance_tool_path(@compliance_tool) %> |
+<%= link_to 'Back', compliance_tools_path %>
